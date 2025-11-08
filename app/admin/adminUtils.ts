@@ -42,3 +42,24 @@ export const closeRegistration = async (eventId: string) => {
         return false;
     }
 }
+
+export const getRegistrations = async (eventId: string) => {
+    const event = await prisma.event.findFirst({
+        where: {
+            id: eventId
+        },
+        select: {
+            registrations: {
+                select: {
+                    name: true,
+                    phone: true,
+                    email: true,
+                    college: true,
+                    department: true,
+                    year: true
+                }
+            }
+        }
+    });
+    return event?.registrations;
+}
