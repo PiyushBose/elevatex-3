@@ -23,8 +23,13 @@ const sponsors: Sponsor[] = [
   },
   {
     "id": "3",
-    "name": "InnovateX",
+    "name": "Tough Tongue",
     "src": "/sponsors/tough_tongue.jpeg",
+  },
+  {
+    "id": "4",
+    "name": "Edwise",
+    "src": "/sponsors/edwise-logo.png",
   }
 ];
 

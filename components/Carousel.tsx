@@ -15,7 +15,6 @@ import {
 import Image from "next/image"
 
 const imageUrls = [
-  '/speakers/chirag.jpeg',
   '/speakers/nandini.JPG',
   '/speakers/rahul.jpeg',
   '/speakers/raman.jpg',

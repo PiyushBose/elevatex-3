@@ -36,12 +36,6 @@ const Speakers: React.FC = () => {
       designation: "Software Engineer in Tokyo"
     },
     {
-      image: "/speakers/chirag.jpeg",
-      name: "Chirag Agarwal",
-      url: "https://www.linkedin.com/in/chiragagg5k/",
-      designation: "Platform Engineer @ Appwrite"
-    },
-    {
       image: "/speakers/rahul.jpeg",
       name: "Rahul Haldar",
       url: "https://www.linkedin.com/in/rahul-halder-95a7ab147/",
